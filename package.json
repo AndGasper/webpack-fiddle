@@ -1,0 +1,34 @@
+{
+  "name": "webpack-fiddle",
+  "version": "1.0.0",
+  "description": "Webpack with caching",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/webpack-cli/bin/cli.js --config=webpack/webpack.config.js",
+    "test": "jest --config=jest/jest.config.js --rootDir=./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AndGasper/webpack-fiddle.git"
+  },
+  "keywords": [
+    "webpack",
+    "webpack-with-caching"
+  ],
+  "author": "DrePhD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AndGasper/webpack-fiddle/issues"
+  },
+  "homepage": "https://github.com/AndGasper/webpack-fiddle#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.0.5",
+    "jest": "^24.1.0",
+    "jest-cli": "^24.1.0",
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  }
+}
